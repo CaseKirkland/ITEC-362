@@ -1,0 +1,62 @@
+/* Global font and color scheme*/
+body {font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;}
+
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --accent-color: #259ff0; }
+
+body {background-color: var(--primary-color);
+        color:white}
+
+/* Header and Navigation Bar*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  
+  .logo img {
+    width: 150px;}
+  
+  .title {text-decoration: none;
+    color: white;
+    font-weight: bold;}  
+
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .shopping-cart img {
+    width: 50px;}
+
+/*Body*/
+.Welcome{background-color: var(--accent-color); }
+
+.Body{background-color: black;}
+
+/*Footer*/ 
+.footer {background-color: black;}
